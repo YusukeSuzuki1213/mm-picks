@@ -2,9 +2,9 @@ import { CheckCircleIcon } from '@heroicons/react/outline';
 export const Navbar = () => {
   return (
     <>
-      <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
+      <nav className="bg-gray-200 border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-800">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
-          <a href="https://flowbite.com/" className="flex items-center">
+          <a href="" className="flex items-center">
             <CheckCircleIcon className="mr-3 h-6 sm:h-9 text-green-500" aria-hidden="true" />
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
               MM Picks
