@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export const Footer = () => {
   return (
     <>
@@ -5,12 +7,12 @@ export const Footer = () => {
         <footer className="max-w-screen-2xl px-4 md:px-8 mx-auto">
           <div className="flex flex-col items-center border-t pt-6">
             <nav className="flex flex-wrap justify-center md:justify-start gap-x-4 gap-y-2 md:gap-6 mb-4">
-              <a
+              <Link
                 className="text-gray-300  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-base font-medium"
-                href="/#"
+                to="./"
               >
                 Home
-              </a>
+              </Link>
             </nav>
             <div className="flex gap-4">
               <a

@@ -1,9 +1,11 @@
+import { Link } from 'react-router-dom';
+
 export const Card = () => {
   return (
     <>
       <div className="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-4">
-        <a
-          href=""
+        <Link
+          to="/events/0"
           className="block bg-white shadow-md rounded-lg overflow-hidden transform transition duration-500 hover:scale-105"
         >
           <div className="relative pb-48 overflow-hidden">
@@ -18,7 +20,7 @@ export const Card = () => {
             <p className="mb-1 text-sm">開催日: 2022年7月2日(土)</p>
             <p className="text-sm">会場: 沖縄アリーナ</p>
           </div>
-        </a>
+        </Link>
       </div>
     </>
   );
